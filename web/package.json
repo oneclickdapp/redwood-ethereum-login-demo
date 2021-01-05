@@ -13,7 +13,8 @@
     ]
   },
   "dependencies": {
-    "@oneclickdapp/ethereum-auth": "^0.0.1",
+    "@apollo/client": "^3.3.6",
+    "@oneclickdapp/ethereum-auth": "^0.2.0",
     "@redwoodjs/auth": "^0.21.0",
     "@redwoodjs/forms": "^0.21.0",
     "@redwoodjs/router": "^0.21.0",
