@@ -6,7 +6,7 @@
 
 > Example app for using the Etheruem Auth provider in RedwoodJS
 
-### ✨ [Demo](https://redwood-web3-login-demo.vercel.app/)
+### ✨ [Demo](https://redwood-ethereum-login-demo.vercel.app/)
 
 ## Setup
 
