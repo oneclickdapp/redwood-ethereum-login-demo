@@ -39,7 +39,7 @@ const ApolloInjector = ({ children }) => {
     ethereum = new EthereumAuthClient({
       makeRequest,
       // Note: you must set NODE_ENV manually when using Netlify
-      debug: process.NODE_ENV !== 'production',
+      debug: process.NODE_ENV === 'development',
     })
   } catch (e) {
     console.log(e)
