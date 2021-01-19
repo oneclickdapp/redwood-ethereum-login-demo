@@ -5,6 +5,7 @@ import { FetchConfigProvider, useFetchConfig } from '@redwoodjs/web'
 import ReactDOM from 'react-dom'
 import { RedwoodProvider, FatalErrorBoundary } from '@redwoodjs/web'
 import FatalErrorPage from 'src/pages/FatalErrorPage'
+import DefaultLayout from 'src/layouts/DefaultLayout'
 
 import Routes from 'src/Routes'
 
@@ -52,7 +53,9 @@ ReactDOM.render(
       <ApolloInjector>
         <AuthProvider client={ethereum} type="ethereum">
           <RedwoodProvider>
-            <Routes />
+            <DefaultLayout>
+              <Routes />
+            </DefaultLayout>
           </RedwoodProvider>
         </AuthProvider>
       </ApolloInjector>
