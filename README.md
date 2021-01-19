@@ -1,24 +1,34 @@
-# Redwood
+<h1 align="center">Welcome to redwood-ethereum-login-demo 👋</h1>
+<p>
+    <img alt="Twitter: pi0neerpat" src="https://img.shields.io/twitter/follow/pi0neerpat.svg?style=social" />
+  </a>
+</p>
 
-> **WARNING:** RedwoodJS software has not reached a stable version 1.0 and should not be considered suitable for production use. In the "make it work; make it right; make it fast" paradigm, Redwood is in the later stages of the "make it work" phase.
+> Example app for using the Etheruem Auth provider in RedwoodJS
 
-## Getting Started
-- [Tutorial](https://redwoodjs.com/tutorial/welcome-to-redwood): getting started and complete overview guide.
-- [Docs](https://redwoodjs.com/docs/introduction): using the Redwood Router, handling assets and files, list of command-line tools, and more.
-- [Redwood Community](https://community.redwoodjs.com): get help, share tips and tricks, and collaborate on everything about RedwoodJS.
+### ✨ [Demo](https://redwood-web3-login-demo.vercel.app/)
 
-### Setup
+## Setup
 
-We use Yarn as our package manager. To get the dependencies installed, just do this in the root directory:
-
-```terminal
+```
 yarn install
+yarn rw dev
 ```
 
-### Fire it up
+Please see the `@oneclickdapp/ethereum-auth` package https://github.com/oneclickdapp/ethereum-auth for instructions
 
-```terminal
-yarn redwood dev
-```
+## Author
 
-Your browser should open automatically to `http://localhost:8910` to see the web app. Lambda functions run on `http://localhost:8911` and are also proxied to `http://localhost:8910/.redwood/functions/*`. 
+👤 **Patrick Gallagher <blockchainbuddha@gmail.com>**
+
+- Website: https://patrickgallagher.dev
+  - Twitter: [@pi0neerpat](https://twitter.com/pi0neerpat)
+  - GitHub: [@pi0neerpat](https://github.com/pi0neerpat)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+---
+
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

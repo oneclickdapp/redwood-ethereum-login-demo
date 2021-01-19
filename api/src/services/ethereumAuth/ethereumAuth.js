@@ -62,7 +62,7 @@ export const authVerify = async ({
     if (address !== signerAddress.toLowerCase())
       throw new Error('invalid signature')
 
-    const token = jwt.sign({ address }, process.env.JWT_SECRET, {
+    const token = jwt.sign({ address }, process.env.ETHEREUM_JWT_SECRET, {
       expiresIn: '5h',
     })
     return { token }
