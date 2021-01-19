@@ -5,8 +5,8 @@ import { db } from './db'
 // See https://redwoodjs.com/cookbook/role-based-access-control-rbac
 // for how to add Role-based Access Control (RBAC) here.
 
-export const getCurrentUser = async (decoded) => {
-  return db.user.findOne({ where: { address: decoded.address } })
+export const getCurrentUser = async (decoded, second) => {
+  return db.user.findUnique({ where: { address: decoded.address } })
 }
 
 // Use this function in your services to check that a user is logged in, and
