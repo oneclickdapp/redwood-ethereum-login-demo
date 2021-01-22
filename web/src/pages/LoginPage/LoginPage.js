@@ -16,7 +16,7 @@ const LoginPage = () => {
   }
 
   return (
-    <div className="m-4">
+    <>
       <div className=" text-left ">
         <h1 className="text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl">
           <span className="block xl:inline">Login</span>
@@ -34,7 +34,7 @@ const LoginPage = () => {
           Log in with Ethereum
         </button>
       </div>
-    </div>
+    </>
   )
 }
 
