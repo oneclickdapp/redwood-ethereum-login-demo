@@ -49,7 +49,7 @@ const DefaultLayout = ({ children }) => {
           </div>
         </div>
       </div>
-      {children}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 mt-5">{children}</div>
     </div>
   )
 }

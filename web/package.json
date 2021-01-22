@@ -15,10 +15,10 @@
   "dependencies": {
     "@apollo/client": "^3.3.6",
     "@oneclickdapp/ethereum-auth": "^0.2.0",
-    "@redwoodjs/auth": "0.23.0-pat",
-    "@redwoodjs/forms": "^0.23.0",
-    "@redwoodjs/router": "^0.23.0",
-    "@redwoodjs/web": "^0.23.0",
+    "@redwoodjs/auth": "^0.23.1-canary.8",
+    "@redwoodjs/forms": "^0.23.1-canary.8",
+    "@redwoodjs/router": "^0.23.1-canary.8",
+    "@redwoodjs/web": "^0.23.1-canary.8",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"

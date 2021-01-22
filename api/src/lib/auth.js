@@ -1,4 +1,4 @@
-import { AuthenticationError } from '@redwoodjs/api'
+import { ForbiddenError } from '@redwoodjs/api'
 
 import { db } from './db'
 
@@ -14,6 +14,6 @@ export const getCurrentUser = async (decoded, second) => {
 
 export const requireAuth = () => {
   if (!context.currentUser) {
-    throw new AuthenticationError("You don't have permission to do that.")
+    throw new ForbiddenError("You don't have permission to do that.")
   }
 }
