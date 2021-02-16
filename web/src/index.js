@@ -3,9 +3,10 @@ import EthereumAuthClient from '@oneclickdapp/ethereum-auth'
 import { ApolloClient, InMemoryCache } from '@apollo/client'
 import { FetchConfigProvider, useFetchConfig } from '@redwoodjs/web'
 import ReactDOM from 'react-dom'
-import { RedwoodProvider, FatalErrorBoundary } from '@redwoodjs/web'
+import { FatalErrorBoundary } from '@redwoodjs/web'
 import FatalErrorPage from 'src/pages/FatalErrorPage'
 import DefaultLayout from 'src/layouts/DefaultLayout'
+import { RedwoodApolloProvider } from '@redwoodjs/web/apollo'
 
 import Routes from 'src/Routes'
 
@@ -52,11 +53,11 @@ ReactDOM.render(
     <FetchConfigProvider>
       <ApolloInjector>
         <AuthProvider client={ethereum} type="ethereum">
-          <RedwoodProvider>
+          <RedwoodApolloProvider>
             <DefaultLayout>
               <Routes />
             </DefaultLayout>
-          </RedwoodProvider>
+          </RedwoodApolloProvider>
         </AuthProvider>
       </ApolloInjector>
     </FetchConfigProvider>

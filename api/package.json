@@ -3,8 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@redwoodjs/api": "^0.23.1-canary.8",
+    "@redwoodjs/api": "^0.25.1",
     "eth-sig-util": "^3.0.0",
     "ethereumjs-util": "^7.0.7"
+  },
+  "resolutions": {
+    "@prisma/client": "2.11.0",
+    "@prisma/cli": "2.11.0",
+    "@prisma/sdk": "2.11.0"
   }
 }
