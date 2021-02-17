@@ -59,8 +59,11 @@ export const authVerify = async ({
       data: bufferToHex(Buffer.from(getNonceMessage(nonce), 'utf8')),
       sig: signature,
     })
+
     if (address !== signerAddress.toLowerCase())
-      throw new Error('invalid signature')
+      throw new Error(
+        `invalid signature. The recovered address is ${signerAddress} but should be ${address}`
+      )
 
     const token = jwt.sign({ address }, process.env.ETHEREUM_JWT_SECRET, {
       expiresIn: '5h',

@@ -13,9 +13,10 @@ import Routes from 'src/Routes'
 import './scaffold.css'
 import './index.css'
 
+let ethereum
+
 const ApolloInjector = ({ children }) => {
   const { uri, headers } = useFetchConfig()
-  let ethereum
   try {
     const graphQLClient = new ApolloClient({
       cache: new InMemoryCache(),
@@ -40,7 +41,8 @@ const ApolloInjector = ({ children }) => {
     ethereum = new EthereumAuthClient({
       makeRequest,
       // Note: you must set NODE_ENV manually when using Netlify
-      debug: process.NODE_ENV === 'development',
+      debug: process.NODE_ENV !== 'development',
+      infuraId: process.env.INFURA_ID,
     })
   } catch (e) {
     console.log(e)

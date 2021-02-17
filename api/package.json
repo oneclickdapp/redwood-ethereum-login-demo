@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@redwoodjs/api": "^0.25.1",
-    "eth-sig-util": "^3.0.0",
+    "eth-sig-util": "^3.0.1",
     "ethereumjs-util": "^7.0.7"
   },
   "resolutions": {
