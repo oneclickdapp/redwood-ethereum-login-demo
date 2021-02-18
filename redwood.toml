@@ -8,7 +8,7 @@
 [web]
   port = 8910
   apiProxyPath = "/.redwood/functions"
-  includeEnvironmentVariables = ['ETHEREUM_JWT_SECRET']
+  includeEnvironmentVariables = ['ETHEREUM_JWT_SECRET', 'INFURA_ID']
 [api]
   port = 8911
   schemaPath = "./api/db/schema.prisma"
