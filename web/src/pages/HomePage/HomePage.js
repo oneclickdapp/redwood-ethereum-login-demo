@@ -10,16 +10,16 @@ const HomePage = () => {
           <span className="block xl:inline">Ethereum auth example</span>
         </h1>
         <p className="mt-3 text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-          This is a demo of{' '}
-          <pre>
-            <a
-              className="mt-3 text-blue-600"
-              href="https://github.com/oneclickdapp/ethereum-auth"
-            >
-              @oneclickdapp/ethereum-auth
-            </a>
-          </pre>
+          This is a demo of
         </p>
+        <pre>
+          <a
+            className="mt-3 text-blue-600"
+            href="https://github.com/oneclickdapp/ethereum-auth"
+          >
+            @oneclickdapp/ethereum-auth
+          </a>
+        </pre>
       </div>
       <div className="mt-8">
         Restricted route (logged-in users only):

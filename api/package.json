@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@redwoodjs/api": "^0.25.1",
+    "@redwoodjs/api": "https://rw-pr-redwoodjs-com.s3.amazonaws.com/1807/redwoodjs-api-0.25.1-51df01b.tgz",
     "eth-sig-util": "^3.0.1",
     "ethereumjs-util": "^7.0.7"
   },

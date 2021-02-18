@@ -9,7 +9,7 @@ export const users = () => {
 
 export const user = ({ id }) => {
   requireAuth()
-  return db.user.findOne({
+  return db.user.findUnique({
     where: { id },
   })
 }
@@ -37,5 +37,5 @@ export const deleteUser = ({ id }) => {
 
 export const User = {
   authDetail: (_obj, { root }) =>
-    db.user.findOne({ where: { id: root.id } }).authDetail(),
+    db.user.findUnique({ where: { id: root.id } }).authDetail(),
 }

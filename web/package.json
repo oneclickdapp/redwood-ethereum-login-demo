@@ -14,11 +14,11 @@
   },
   "dependencies": {
     "@apollo/client": "^3.3.6",
-    "@oneclickdapp/ethereum-auth": "^0.2.0",
-    "@redwoodjs/auth": "^0.25.1",
-    "@redwoodjs/forms": "^0.25.1",
-    "@redwoodjs/router": "^0.25.1",
-    "@redwoodjs/web": "^0.25.1",
+    "@oneclickdapp/ethereum-auth": "^0.2.1",
+    "@redwoodjs/auth": "https://rw-pr-redwoodjs-com.s3.amazonaws.com/1807/redwoodjs-auth-0.25.1-51df01b.tgz",
+    "@redwoodjs/forms": "https://rw-pr-redwoodjs-com.s3.amazonaws.com/1807/redwoodjs-forms-0.25.1-51df01b.tgz",
+    "@redwoodjs/router": "https://rw-pr-redwoodjs-com.s3.amazonaws.com/1807/redwoodjs-router-0.25.1-51df01b.tgz",
+    "@redwoodjs/web": "https://rw-pr-redwoodjs-com.s3.amazonaws.com/1807/redwoodjs-web-0.25.1-51df01b.tgz",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"

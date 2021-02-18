@@ -7,7 +7,7 @@
     ]
   },
   "devDependencies": {
-    "@redwoodjs/core": "^0.25.1"
+    "@redwoodjs/core": "https://rw-pr-redwoodjs-com.s3.amazonaws.com/1807/redwoodjs-core-0.25.1-51df01b.tgz"
   },
   "eslintConfig": {
     "extends": "@redwoodjs/eslint-config"
@@ -24,6 +24,6 @@
   "dependencies": {
     "@redwoodjs/api": "^0.25.1",
     "@redwoodjs/auth": "^0.25.1",
-    "@redwoodjs/cli": "^0.25.1"
+    "@redwoodjs/cli": "https://rw-pr-redwoodjs-com.s3.amazonaws.com/1807/redwoodjs-cli-0.25.1-51df01b.tgz"
   }
 }
