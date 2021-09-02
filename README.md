@@ -1,3 +1,7 @@
+<h1>This repo has been deprecated. The demo app is now in the `/examples` folder of https://github.com/oneclickdapp/ethereum-auth</h1>
+
+---
+
 <h1 align="center">Welcome to redwood-ethereum-login-demo 👋</h1>
 <p>
     <img alt="Twitter: pi0neerpat" src="https://img.shields.io/twitter/follow/pi0neerpat.svg?style=social" />
